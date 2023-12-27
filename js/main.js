@@ -13,7 +13,8 @@ const updates = UpdateList.from([
     { name: "2.0", str: "2015-08-26" },
     { name: "2.1", str: "2017-01-16" },
     { name: "2.11", str: "2017-11-15" },
-    { name: "2.2", str: Date.now() }
+    { name: "2.2", str: "2023-12-20" },
+    { name: "2.21", str: Date.now() },
 ]);
 
 let container;
@@ -36,9 +37,8 @@ document.fonts.ready.then(fonts => {
 
     const msgs = [
         "El Pollo Esta Lista?!?!",
-        "\"I have to get it out this year it is getting ridiculus\"",
         "Low Dearth",
-        "2.2 soon™"
+        "It's out no way",
     ];
 
     document.title += " " + msgs[Math.floor(msgs.length * Math.random())];
